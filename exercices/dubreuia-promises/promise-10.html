@@ -1,17 +1,26 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Promise demos</title>
 </head>
-<body>
-<script>
-    async function promiseFunction() {
-        return "TODO";
-    }
 
-    promiseFunction()
+<body>
+    <script>
+        async function promiseFunction() {
+            return new Promise(resolve => resolve("OK"));
+        }
+
+        // OU
+
+        async function promiseFunction() {
+            return "OK"
+        }
+
+        promiseFunction()
             .then(result => console.log("then " + result))
-</script>
+    </script>
 </body>
+
 </html>
