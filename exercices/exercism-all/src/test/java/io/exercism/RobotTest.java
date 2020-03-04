@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RobotTest {
 
-    // @Disabled("Remove to run test")
+    @Disabled("Remove to run test")
     @Test
     public void atOriginFacingNorth() {
         Orientation initialOrientation = Orientation.NORTH;
