@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Promise demos</title>
+</head>
+<body>
+<script>
+    let promise = new Promise((resolve, reject) => {
+        let innerPromise = new Promise((resolve, reject) => resolve("TODO"));
+        resolve({text: innerPromise});
+    });
+    /* TODO */
+</script>
+</body>
+</html>
