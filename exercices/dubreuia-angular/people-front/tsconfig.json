@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+<<<<<<< HEAD
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
@@ -13,11 +14,24 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+=======
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+>>>>>>> e5d8334d8eb161836b324345d7e8d285e2d74608
     "typeRoots": [
       "node_modules/@types"
     ],
     "lib": [
+<<<<<<< HEAD
       "es2018",
+=======
+      "es2017",
+>>>>>>> e5d8334d8eb161836b324345d7e8d285e2d74608
       "dom"
     ]
   }

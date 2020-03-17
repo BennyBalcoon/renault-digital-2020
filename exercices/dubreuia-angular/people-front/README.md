@@ -1,6 +1,10 @@
 # PeopleFront
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+>>>>>>> e5d8334d8eb161836b324345d7e8d285e2d74608
 
 ## Development server
 
@@ -12,7 +16,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
+<<<<<<< HEAD
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+=======
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+>>>>>>> e5d8334d8eb161836b324345d7e8d285e2d74608
 
 ## Running unit tests
 
